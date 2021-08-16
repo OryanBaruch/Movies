@@ -1,0 +1,18 @@
+<div class="searchContainer">
+  <div ngClass="searchbar">
+    <button
+      ngClass="submitSearch"
+      mat-raised-button
+      color="primary"
+      (click)="handleSearch()"
+    >
+      Search!
+    </button>
+    <mat-search-bar
+      type="text"
+      placeholder="Search..."
+      [(ngModel)]="output"
+    ></mat-search-bar>
+  </div>
+</div>
+

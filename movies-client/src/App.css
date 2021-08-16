@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  width: 100%;
+  background-color: #FDB927 !important;
+}
+
+
+.App-header{
+  color: white;
+  background-color: #000000;
+}

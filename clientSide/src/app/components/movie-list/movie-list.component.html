@@ -1,0 +1,9 @@
+<mat-grid-list cols="5" rowHeight="1:1.5">
+  <div *ngFor="let movie of MovieService.movies">
+    <mat-grid-tile>
+      <app-movie-item 
+      [movie]="movie">
+      </app-movie-item>
+    </mat-grid-tile>
+  </div>
+</mat-grid-list>

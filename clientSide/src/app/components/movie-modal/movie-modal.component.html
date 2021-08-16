@@ -1,0 +1,14 @@
+<div class="container">
+  <h2 mat-dialog-title>Extra Info just for you:</h2>
+  <mat-dialog-content
+    class="mat-typography"
+    *ngFor="let data of this.MovieService.extraDetails | keyvalue"
+  >
+    <strong>{{ data.key }} </strong>:
+    {{ data.value }}
+  </mat-dialog-content>
+
+  <mat-dialog-actions align="end">
+    <button mat-button mat-dialog-close>Cancel</button>
+  </mat-dialog-actions>
+</div>

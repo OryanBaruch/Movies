@@ -1,0 +1,12 @@
+
+#searchContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-bottom: 3px;
+}
+
+.App-header{
+    font-size: xx-large;
+}

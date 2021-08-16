@@ -1,0 +1,11 @@
+
+.img{
+    float: right;
+    width: 45%;
+    border-radius: 2%;
+}
+
+.dialogContent{
+    display: flex;
+    justify-content: space-between;
+}

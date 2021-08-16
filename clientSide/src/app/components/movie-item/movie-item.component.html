@@ -1,0 +1,12 @@
+<div class="container">
+  <h2 ngClass="h2">{{ movie.Title }}</h2>
+  <button
+    ngClass="button"
+    (click)="fetchMovieDataById(movie.imdbID)"
+    mat-raised-button
+    color="primary"
+  >
+    More details
+  </button>
+    <img ngClass='img' src="{{ movie.Poster }}" alt="posterForMovie" />
+</div>
